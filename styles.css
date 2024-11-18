@@ -46,7 +46,9 @@ body {
 
   .cards img{
     width: 100%;
-    height: 350px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit:cover;
   }
 
   .cards:hover > :not(:hover){
