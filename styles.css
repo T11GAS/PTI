@@ -38,19 +38,38 @@ body {
     padding: 30px;
   }
   
+  .servicos img{
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+
+    
+  }
+  
   .cards {
     display: flex;
     justify-content: space-around;
   }
+
+  .cards:hover > :not(:hover){
+
+    opacity: 10;
+    transform: scale(0.9);
+  }
   
   .card {
     background: #ecf0f1;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     text-align: center;
     flex: 1;
     margin: 10px;
+
+    transition: .35s;
+    cursor: pointer;
+
   }
+ 
   
   .contato {
     padding: 30px;
